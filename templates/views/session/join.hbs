@@ -1,0 +1,36 @@
+<form class="form-signin" method="post">
+	<input type="hidden" name="action" value="join">
+	<h2 class="form-signin-heading">Join!</h2>
+	<label for="inputFirstName" class="sr-only">First name</label>
+	<input type="text" id="inputFirstName" name="firstname" class="form-control" placeholder="John" required autofocus>
+	<label for="inputLastName" class="sr-only">Last name</label>
+	<input type="text" id="inputLastName" name="lastname" class="form-control" placeholder="Smith" required>
+	<label for="inputEmail" class="sr-only">Email address</label>
+	<input type="email" id="inputEmail" name="email" class="form-control" placeholder="Email address" required>
+	<label for="inputPassword" class="sr-only">Password</label>
+	<input type="text" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+	<button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+</form>
+
+<div class="text-center" style="margin-top: 1rem">
+	<a class="btn btn-social btn-facebook" href="/auth/facebook" role="button">
+		<span class="fa fa-facebook"></span>
+		Sign up with Facebook
+	</a>
+	<a class="btn btn-social btn-github" href="/auth/github" role="button">
+		<span class="fa fa-github"></span>
+		Sign up with GitHub
+	</a>
+	<a class="btn btn-social btn-twitter" href="/auth/twitter" role="button">
+		<span class="fa fa-twitter"></span>
+		Sign up with Twitter
+	</a>
+	<a class="btn btn-social btn-google" href="/auth/google" role="button">
+		<span class="fa fa-google"></span>
+		Sign up with Google
+	</a>
+</div>
+
+<div class="text-center" style="border-top: 1px solid #999; margin-top: 3rem">
+	<h5>Already have an account? <a href="/sign-in">Sign in!</a></h5>
+</div>

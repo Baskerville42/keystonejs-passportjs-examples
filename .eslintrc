@@ -1,3 +1,7 @@
 {
-    "extends": "keystone"
+  "extends": "keystone",
+  "env": {
+	"node": true,
+	"mongo": true
+  }
 }
